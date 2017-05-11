@@ -53,13 +53,13 @@ Swiftで広く使われているCOW値型が一般に成功してきた。けれ
 
 * Reference counting and uniqueness testing do impose some overhead.
 
-参照カウントとユニーク性の検査はいくらかのオーバーヘッドを与える。
+  参照カウントとユニーク性の検査はいくらかのオーバーヘッドを与える。
 
 * Reference counting provides deterministic performance in most cases,
   but that performance can still be complex to analyze and predict.
 
-参照カウントはほとんどの場合でdeterministic(決定論的な)な性能を提供するが、
-しかしそれでも解析と予測が複雑になってしまうこともある。
+  参照カウントはほとんどの場合でdeterministic(決定論的な)な性能を提供するが、
+  しかしそれでも解析と予測が複雑になってしまうこともある。
 
 * The ability to copy a value at any time and thus "escape" it forces
   the underlying buffers to generally be heap-allocated.  Stack allocation
@@ -502,7 +502,7 @@ value instanceをコピーまたは破棄するといった際の意味は型に
   values of such types.  However, the Law of Exclusivity will still
   apply to them.
 
-* いくつかの型はそれのバイト表現をコピーする以外に余分な作業を必要としない。
+  いくつかの型はそれのバイト表現をコピーする以外に余分な作業を必要としない。
   これを「trivial」と呼ぶ。
   例えば、 `Int` と `Float` は trivial な型で、
   そうした値しか含まない普通の `struct` と `enum` もそうだ。
@@ -519,7 +519,7 @@ value instanceをコピーまたは破棄するといった際の意味は型に
   copying and destroying values means manipulating reference counts,
   not copying the object or (necessarily) destroying it.
 
-* 参照型においては、value instanceはオブジェクトへの参照だ。
+  参照型においては、value instanceはオブジェクトへの参照だ。
   value instanceのコピーは新しい参照の生成を意味し、
   参照カウントを増加させる。
   value instanceの破棄は参照の破棄を意味し、
@@ -534,7 +534,7 @@ value instanceをコピーまたは破棄するといった際の意味は型に
   it is important to remember that copying the value doesn't mean
   copying the contents of the buffer into a new buffer.
 
-* COW型については、value instanceはバッファへの参照を含み、
+  COW型については、value instanceはバッファへの参照を含み、
   これは基本的には参照型のように働く。
   ここでもやはり覚えておくべき大事なことは、
   値のコピーはバッファの中身を新しいバッファにコピーする事を意味しない事だ。
@@ -634,15 +634,15 @@ for the index.  For example, a storage reference expression like
 
 * the storage for the property `var weight: Double` of
 
-* `var weight: Double` プロパティのストレージ、of
+  `var weight: Double` プロパティのストレージ、of
 
 * the storage for the subscript `subscript(index: Int)` at index value `19: Int` of
 
-* subscript `subscript(index: Int)` のインデックス `19: Int` のストレージ、of
+  subscript `subscript(index: Int)` のインデックス `19: Int` のストレージ、of
 
 * the storage for the local variable `var widgets: [Widget]`
 
-* ローカル変数 `var widgets: [Widget]` のストレージ
+  ローカル変数 `var widgets: [Widget]` のストレージ
 
 A *variable* is the semantics concept of a unique place in
 memory that stores a value.  It's not necessarily mutable, at least
