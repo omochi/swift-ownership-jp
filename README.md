@@ -1,8 +1,8 @@
 # この文書について
 
-この文書は僕がSwiftのOwnership Manifestoを読解する際に作った和訳です。
+この文書は僕がSwiftの[Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)を読解する際に作った和訳です。
 
-元にしたバージョンは以下です。
+元にしたバージョンは [7eb7d5b10977696c1f822ef55caaa65278c9aee8](https://github.com/apple/swift/blob/7eb7d5b10977696c1f822ef55caaa65278c9aee8/docs/OwnershipManifesto.md) です。
 
 ```
 Commits on Apr 19, 2017
@@ -18,7 +18,9 @@ practicalswift committed 23 days ago
 
 改善提案を歓迎します。
 
-ライセンスはSwiftリポジトリ本体のApache Licenseを継承していると思います。
+ライセンスは[Swiftリポジトリ本体のApache License](https://github.com/apple/swift/blob/master/LICENSE.txt)を継承していると思います。
+
+---
 
 # Ownership
 # オーナーシップ
@@ -3055,5 +3057,3 @@ of non-copyable types.
 大きな作業となるだろう、
 しかしコピー不可能な型の使いやすさのために重要だ。
 もしコピー不可能な型の `Array` を作ることができなければこれはとても制限されるだろう。
-
-
