@@ -12,13 +12,9 @@ practicalswift committed 23 days ago
 7eb7d5b  
 ```
 
-意味がわかって日本語になっているところと、
-意味がわかったがうまく日本語にならなかったところと、
-意味がよくわからなかった部分が混ざっています。
+うまく訳せていない変な日本語になっている部分については助けてくれると嬉しいです。
 
-改善提案を歓迎します。
-
-ライセンスは[Swiftリポジトリ本体のApache License](https://github.com/apple/swift/blob/master/LICENSE.txt)を継承していると思います。
+ライセンスは[Swiftリポジトリ本体のApache License](https://github.com/apple/swift/blob/master/LICENSE.txt)を継承しています。
 
 ---
 

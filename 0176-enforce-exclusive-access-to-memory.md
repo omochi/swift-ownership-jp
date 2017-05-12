@@ -12,7 +12,7 @@ rjmccall committed on GitHub 44 minutes ago
 51d9e79 
 ```
 
-改善提案を歓迎します。
+うまく訳せていない変な日本語になっている部分については助けてくれると嬉しいです。
 
 ライセンスは[Swift Evolutionリポジトリ本体のApache License](https://github.com/apple/swift-evolution/blob/master/LICENSE.txt)を継承しています。
 
