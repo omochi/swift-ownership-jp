@@ -2,7 +2,7 @@
 
 この文書は僕がSwiftの[Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)を読解する際に作った和訳です。
 
-元にしたバージョンは [7eb7d5b10977696c1f822ef55caaa65278c9aee8](https://github.com/apple/swift/tree/7eb7d5b10977696c1f822ef55caaa65278c9aee8) です。
+元にしたバージョンは [7eb7d5b10977696c1f822ef55caaa65278c9aee8](https://github.com/apple/swift/blob/7eb7d5b10977696c1f822ef55caaa65278c9aee8/docs/OwnershipManifesto.md) です。
 
 ```
 Commits on Apr 19, 2017
