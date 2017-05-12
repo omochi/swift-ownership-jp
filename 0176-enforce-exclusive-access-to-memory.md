@@ -432,7 +432,7 @@ accesses to the same variable.  We currently allow this to happen
 and make a best effort to live with the consequences.  The costs,
 in general, are a lot of complexity and lost performance.
 
-よってアクセスが non-instantaneous になりうることを受け入れねばなｒなあい。
+よってアクセスが non-instantaneous になりうることを受け入れねばならない。
 これはプログラマが同じ変数への重なったアクセスを自然に引き起こすコードを書ける事を意味する。
 現状ではそれが起きる事を許し、その結果とうまくやるために最大の努力をしている。
 一般にそのコストは大きな複雑性とパフォーマンスの低下である。   
