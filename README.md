@@ -1,6 +1,6 @@
 # この文書について
 
-この文書は僕がSwiftのOwnership Manifestoを読解する際に作った和訳です。
+この文書は僕がSwiftの[Ownership Manifesto](https://github.com/apple/swift/blob/master/docs/OwnershipManifesto.md)を読解する際に作った和訳です。
 
 元にしたバージョンは以下です。
 
