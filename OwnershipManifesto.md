@@ -68,11 +68,11 @@ Swiftで広く使われているCOW値型が一般に成功してきた。けれ
   is far more efficient but does require some ability to prevent, or at
   least recognize, attempts to escape the value.
 
-いつでも値をコピーできる、つまり「エスケープ」できる能力は、
-下請けバッファが一般にヒープ確保されることを強制する。
-スタック確保はそれよりはるかに効率的だが、
-それは値をエスケープする試みを阻むか、
-少なくとも認識するなんらかの能力を必要とする。
+  いつでも値をコピーできる、つまり「エスケープ」できる能力は、
+  下請けバッファが一般にヒープ確保されることを強制する。
+  スタック確保はそれよりはるかに効率的だが、
+  それは値をエスケープする試みを阻むか、
+  少なくとも認識するなんらかの能力を必要とする。
 
 Certain kinds of low-level programming require stricter performance
 guarantees.  Often these guarantees are less about absolute performance
@@ -81,8 +81,8 @@ stream is not a taxing job for a modern processor, even with significant
 per-sample overheads, but any sort of unexpected hiccup is immediately
 noticeable by users.
 
-いくらかの種類のローレベルプログラミングでは厳密な性能保証が必要となる。
-そのような保証はしばしば「予測可能な」性能よりも絶対性能についてであり、小さい。
+いくらかの種類のローレベルプログラミングではより厳密な性能保証を必要とする。
+それはしばしば絶対性能よりも「予測可能な」性能を求める。
 例えば、音声ストリームを維持しつづけるのは、
 たとえサンプルごとのオーバヘッドが大きなものであっても、
 現代のプロセッサには重い処理ではないが、
