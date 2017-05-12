@@ -81,8 +81,8 @@ stream is not a taxing job for a modern processor, even with significant
 per-sample overheads, but any sort of unexpected hiccup is immediately
 noticeable by users.
 
-いくらかの種類のローレベルプログラミングでは厳密な性能保証が必要となる。
-そのような保証はしばしば「予測可能な」性能よりも絶対性能についてであり、小さい。
+いくらかの種類のローレベルプログラミングではより厳密な性能保証を必要とする。
+それはしばしば絶対性能よりも「予測可能な」性能を求める。
 例えば、音声ストリームを維持しつづけるのは、
 たとえサンプルごとのオーバヘッドが大きなものであっても、
 現代のプロセッサには重い処理ではないが、
