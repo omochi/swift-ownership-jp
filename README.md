@@ -20,6 +20,8 @@ practicalswift committed 23 days ago
 
 ライセンスは[Swiftリポジトリ本体のApache License](https://github.com/apple/swift/blob/master/LICENSE.txt)を継承していると思います。
 
+---
+
 # Ownership
 # オーナーシップ
 
