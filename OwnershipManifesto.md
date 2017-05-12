@@ -68,11 +68,11 @@ Swiftで広く使われているCOW値型が一般に成功してきた。けれ
   is far more efficient but does require some ability to prevent, or at
   least recognize, attempts to escape the value.
 
-いつでも値をコピーできる、つまり「エスケープ」できる能力は、
-下請けバッファが一般にヒープ確保されることを強制する。
-スタック確保はそれよりはるかに効率的だが、
-それは値をエスケープする試みを阻むか、
-少なくとも認識するなんらかの能力を必要とする。
+  いつでも値をコピーできる、つまり「エスケープ」できる能力は、
+  下請けバッファが一般にヒープ確保されることを強制する。
+  スタック確保はそれよりはるかに効率的だが、
+  それは値をエスケープする試みを阻むか、
+  少なくとも認識するなんらかの能力を必要とする。
 
 Certain kinds of low-level programming require stricter performance
 guarantees.  Often these guarantees are less about absolute performance
