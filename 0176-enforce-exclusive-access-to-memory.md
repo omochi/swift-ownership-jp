@@ -42,13 +42,10 @@ Swift3では、
 変数がプログラムの他の箇所から使われているか変更されている最中に、
 それを変更することが可能である。
 これは予想外だったり混乱する結果をもたらしうる。
-これは、
-たとえ稀な状況においてもプログラムの基本的な安全性
+それはさらに、コンパイラと標準ライブラリの実装に対して、
+多大な保守を強いる。それらは稀な状況下でもプログラムの基本的な健全性
 (クラッシュや未定義の動作が起こらない事)
-を
-一般に保証せねばならない
-コンパイラと標準ライブラリの実装に対して、
-大量の保守性を強制させもする。
+を一般に保証せねばならないからである。
 
 We propose that Swift should instead enforce a general rule that potential
 modifications of variables must be exclusive with any other access to that
@@ -432,7 +429,7 @@ accesses to the same variable.  We currently allow this to happen
 and make a best effort to live with the consequences.  The costs,
 in general, are a lot of complexity and lost performance.
 
-よってアクセスが non-instantaneous になりうることを受け入れねばなｒなあい。
+よってアクセスが non-instantaneous になりうることを受け入れねばならない。
 これはプログラマが同じ変数への重なったアクセスを自然に引き起こすコードを書ける事を意味する。
 現状ではそれが起きる事を許し、その結果とうまくやるために最大の努力をしている。
 一般にそのコストは大きな複雑性とパフォーマンスの低下である。   

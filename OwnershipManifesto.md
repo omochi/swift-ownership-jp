@@ -160,7 +160,7 @@ Swiftはオーナーシップシステムを既に持っているが、「ベッ
   変数への複数の方法(例えば、2つの異なる関数に `inout` を渡す)
   による衝突する同時アクセスを防ぐための実装を与えたい。
   この変更はオプトインにはしないだろうが、
-  ほとんどのプログラマに悪影響は無いと信じる。
+  ほとんどのプログラムに悪影響は無いと信じる。
   
 - We should add features to give programmers more control over
   the ownership system, chiefly by allowing the propagation
