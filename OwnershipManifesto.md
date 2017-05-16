@@ -626,7 +626,7 @@ for the index.  For example, a storage reference expression like
 もしストレージがメンバならば、
 それは値もしくはその基点へのstorage referenceを含む。
 もしストレージがsubscriptならば、
-それはインデックスの値を含む。
+それは値へのインデックスを含む。
 例えば、`widgets[i].weight` という storage reference expression は
 次のstorage referenceとして抽象的に評価されうるだろう。
 
