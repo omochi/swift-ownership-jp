@@ -742,7 +742,7 @@ Swiftの左から右への評価の規則で、ありうる最大の範囲で
 With all of that established, we can succinctly state the first
 part of this proposal, the Law of Exclusivity:
 
-ここまでに確率した全てを用いると、
+ここまでに確立した全てを用いると、
 この提案の最初の部分で簡潔に述べた排他則とは
 
 > If a storage reference expression evaluates to a storage
